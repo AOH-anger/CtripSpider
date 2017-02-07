@@ -38,15 +38,6 @@ class CtripSpider(CrawlSpider):
             except:
                 praise = 'no praise'
 
-            print(img)
-            print(name)
-            print(desc)
-            print(grade)
-            print(price)
-            print(praise)
-            print('=====================================================')
-
-
             item['img'] = img.encode('utf-8')
             item['name'] = name.encode('utf-8')
             item['desc'] = desc.encode('utf-8')
